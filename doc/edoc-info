@@ -1,0 +1,3 @@
+{application,mb}.
+{packages,[]}.
+{modules,[mb]}.

@@ -1,0 +1,18 @@
+Copied from http://code.google.com/p/mb-erlang/ 2012-10-07
+
+changeset:   2:541c4371dc6f
+tag:         tip
+user:        headspin@gmail.com
+date:        Sun Jul 31 03:09:29 2011 +0800
+summary:     Fixed a couple of bugs in encodings lookup. Added some tests.
+
+changeset:   1:3d620fd23190
+user:        headspin@gmail.com
+date:        Sat Jul 30 18:21:08 2011 +0800
+summary:     2nd commit. Added a couple of files.
+
+changeset:   0:d4a06ae87e80
+user:        dda
+date:        Sat Jul 30 18:10:43 2011 +0800
+summary:     First public release. I am probably going to break something...
+
