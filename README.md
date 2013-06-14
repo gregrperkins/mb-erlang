@@ -35,17 +35,17 @@ This readme contains:
 
 ###	bocu/1
 
-	*bocu(X1) -> any()*
+*bocu(X1) -> any()*
 
 ### charToInt/1
 
-	*charToInt(Char) -> any()*
+*charToInt(Char) -> any()*
 
 ### convertEncoding/2
 
-	*convertEncoding(OriginalString::mbString(), NewEncoding::atom()) -> mbString()*
+*convertEncoding(OriginalString::mbString(), NewEncoding::atom()) -> mbString()*
 
-converts an mb string from Encoding to NewEncoding.
+Converts an mb string from Encoding to NewEncoding.
 
 Example:
 
@@ -54,9 +54,9 @@ Example:
 
 ### format/1
 
-	*format(MBString::mbString()) -> list()*
+*format(MBString::mbString()) -> list()*
 
-formats the mbstring for output.
+Formats the mbstring for output.
 
 Example: 
 
@@ -69,9 +69,9 @@ Just a hack really.
 
 ### fwrite/2
 
-	*fwrite(MBString::mbString(), FileName::list()) -> atom()*
+*fwrite(MBString::mbString(), FileName::list()) -> atom()*
 
-outputs an mbstring to a file.
+Outputs an mbstring to a file.
 
 Example
 
@@ -82,45 +82,45 @@ Example
 
 ### getNextCharAsInt/1
 
-	*getNextCharAsInt(X1) -> any()*
+*getNextCharAsInt(X1) -> any()*
 
 ### hasProcess/1
 
-	*hasProcess(X) -> any()*
+*hasProcess(X) -> any()*
 
 ### hasTable/1
 
-	*hasTable(X) -> any()*
+*hasTable(X) -> any()*
 
 ### hexString_to_List/1
 
-	*hexString_to_List(Code) -> any()*
+*hexString_to_List(Code) -> any()*
 
 ### init/0
 
-	*init() -> atom()*
+*init() -> atom()*
 
-reads the unicode- and encodings-related tables and builds them if absent
+Reads the unicode- and encodings-related tables and builds them if absent
 
 See also: reset/0.
 
 ### isASCII/1
 
-	*isASCII(Tring) -> any()*
+*isASCII(Tring) -> any()*
 
 ### len/1
 
-	*len(MyString) -> any()*
+*len(MyString) -> any()*
 
 ### lenB/1
 
-	*lenB(X1) -> any()*
+*lenB(X1) -> any()*
 
 ### new/0
 
-	*new() -> mbString()*
+*new() -> mbString()*
 
-creates a new empty mb string, a tuple {encoding_atom, <<"">>}.
+Creates a new empty mb string, a tuple {encoding_atom, <<"">>}.
 
 Example:
 
@@ -131,9 +131,9 @@ See also: new/1, new/2, new/3.
 
 ### new/1
 
-	*new(String::list()) -> mbString()*
+*new(String::list()) -> mbString()*
 
-creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}. You can specify the encoding, and even request an on-the-fly conversion.
+Creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}. You can specify the encoding, and even request an on-the-fly conversion.
 
 Example:
 
@@ -144,9 +144,9 @@ See also: new/0, new/2, new/3.
 
 ### new/2
 
-	*new(String::list(), OriginalEncoding::atom()) -> mbString()*
+*new(String::list(), OriginalEncoding::atom()) -> mbString()*
 
-creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}. You can specify the encoding, and even request an on-the-fly conversion.
+Creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}. You can specify the encoding, and even request an on-the-fly conversion.
 
 Example:
 
@@ -157,9 +157,9 @@ See also: new/0, new/1, new/3.
 
 ### new/3
 
-	*new(String::list(), OriginalEncoding::atom(), RequestedEncoding::atom()) -> mbString()*
+*new(String::list(), OriginalEncoding::atom(), RequestedEncoding::atom()) -> mbString()*
 
-creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}. You can specify the encoding, and even request an on-the-fly conversion.
+Creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}. You can specify the encoding, and even request an on-the-fly conversion.
 
 Example:
 
@@ -170,15 +170,15 @@ See also: new/0, new/1, new/2.
 
 ### print/1
 
-	*print(MBString::mbString()) -> atom()*
+*print(MBString::mbString()) -> atom()*
 
 See also: format/1, fwrite/2, print/2.
 
 ### print/2
 
-	*print(MBString::mbString(), Params::list()) -> atom()*
+*print(MBString::mbString(), Params::list()) -> atom()*
 
-formats an mbstring and outputs it.
+Formats an mbstring and outputs it.
 
 Example:
 
@@ -192,8 +192,8 @@ See also: format/1, fwrite/2, print/1.
 
 # reset/0
 
-	*reset() -> atom()*
+*reset() -> atom()*
 
-rebuilds the unicode- and encodings-related tables. What it really does is delete the dets tables.
+Rebuilds the unicode- and encodings-related tables. What it really does is delete the dets tables.
 
 See also: init/0.
