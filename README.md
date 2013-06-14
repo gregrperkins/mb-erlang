@@ -20,9 +20,9 @@ This readme contains:
 	hasTable/1 | 
 	hexString_to_List/1 | 
 	init/0 | Reads the unicode- and encodings-related tables and builds them if absent
-	isASCII/1
-	len/1
-	lenB/1
+	isASCII/1 | 
+	len/1 | 
+	lenB/1 | 
 	new/0 | Creates a new empty mb string, a tuple {encoding_atom, <<"">>}
 	new/1 | Creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}
 	new/2 | Creates a new mb string, a tuple {encoding_atom, <<Binary_String>>}
