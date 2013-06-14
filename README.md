@@ -190,7 +190,7 @@ Example:
   
 See also: format/1, fwrite/2, print/1.
 
-# reset/0
+### reset/0
 
 *reset() -> atom()*
 
